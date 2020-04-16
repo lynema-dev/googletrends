@@ -6,7 +6,6 @@ from pandas.plotting import register_matplotlib_converters
 def plottrends(searchterm, tf, booRegion, booCreateCSV, secondtermforseries):
 
     print ('Importing data from Google Trends')
-
     pytrend = TrendReq()
 
     if booRegion or len(secondtermforseries) == 0:
